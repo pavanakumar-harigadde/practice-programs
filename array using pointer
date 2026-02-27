@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50}; // Declare and initialize an array
+    int *ptr = arr; // Pointer points to the first element of the array
+
+    printf("Array elements using pointer arithmetic:\n");
+
+    // Traverse the array using pointer arithmetic
+    for (int i = 0; i < 5; i++) {
+        printf("Element %d: %d\n", i, *(ptr + i));
+        // *(ptr + i) accesses the value at the i-th position
+    }
+
+    return 0;
+}
