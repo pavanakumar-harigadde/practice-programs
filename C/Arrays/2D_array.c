@@ -1,14 +1,15 @@
-/* Static 1D Array representation */
+/* Static 2D Array representation */
 #include<stdio.h>
 int main()
 {
     int i, j;
+    /*Static 2D array declaration*/
     int arr[3][3] = {
         {1,2,3},
         {4,5,6},
         {7,8,9}
     };
-
+    /*Displaying array elements*/
     printf("Array:\n");
     for(i=0;i<3;i++)
     {
@@ -21,4 +22,5 @@ int main()
     return 0;
 
 }
+/*End of the program*/
 
