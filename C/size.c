@@ -8,7 +8,7 @@ and long.
 int main()
 {
     
-    printf("Size of %lu bytes\n",sizeof(int))
+    printf("Size of %lu bytes\n",sizeof(int));
     printf("Size of %lu bytes\n",sizeof(float));
     printf("Size of %lu bytes\n",sizeof(char));
     printf("Size of %lu bytes\n",sizeof(double));
